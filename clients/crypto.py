@@ -1,7 +1,8 @@
 import secrets
 import base64
+from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.primitives import serialization
-from cryptography.hazmat.primitives import padding, hashes
+from cryptography.hazmat.primitives import hashes
 
 
 def generate_session_key():
