@@ -1,8 +1,8 @@
 import socket, json
 
-HOST, PORT = "localhost", 9999
+# HOST, PORT = "localhost", 9999
 
-def network(public_key):
+def network(HOST, PORT, public_key):
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.bind((HOST, PORT))
