@@ -14,6 +14,6 @@ def server_connection(HOST, PORT):
 
     data = response_dict["data"]
 
-    print(data)
+    # print(data)
 
 
